@@ -1,211 +1,142 @@
-# Awesome-Cloud-Capacity-Planning
-
-## Top Cloud Capacity Planning Platforms Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Cloud Resource Optimization, Rightsizing, Cost Allocation, Autoscaling Intelligence, FinOps & Workload Efficiency*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Capacity Planning**. These tools analyze utilization, recommend rightsizing, allocate costs, automate scaling, and help organizations optimize cloud spend and performance.
-
-
-
-**Examples** include Apptio Cloudability, IBM Turbonomic, Densify, CloudBolt, CloudHealth by VMware, Flexera One, CloudCheckr, ParkMyCloud, StormForge, and ScaleOps (the category leaders).
-
-
-
-**Open-source emphasis**: Full multi-cloud capacity planning and automated optimization remain largely commercial. The strongest open options center on **OpenCost** (CNCF) for Kubernetes cost allocation, plus native Kubernetes autoscalers and observability stacks. This section expands those projects and is realistic about the commercial gap for enterprise FinOps platforms.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Apptio Cloudability](https://www.apptio.com/products/cloudability/)**  
-
-  Leading FinOps and cloud cost management platform for visibility, allocation, rightsizing recommendations, and multi-cloud spend optimization.
-
-
-
-- **[IBM Turbonomic](https://www.ibm.com/products/turbonomic)**  
-
-  Application resource management platform that continuously analyzes and optimizes compute, storage, and network capacity across hybrid environments.
-
-
-
-- **[Densify](https://www.densify.com/)**  
-
-  Capacity planning and optimization platform focused on machine-learning-driven rightsizing and resource efficiency for cloud and container workloads.
-
-
-
-- **[CloudBolt](https://www.cloudbolt.io/)**  
-
-  Hybrid cloud management and orchestration platform with cost, capacity, and self-service provisioning capabilities.
-
-
-
-- **[CloudHealth by VMware / Broadcom](https://cloud.vmware.com/)**  
-
-  Multi-cloud cost and capacity management platform for visibility, governance, and optimization (product branding may vary under Broadcom).
-
-
-
-- **[Flexera One](https://www.flexera.com/)**  
-
-  IT asset and cloud management platform including FinOps, rightsizing, and hybrid capacity planning features.
-
-
-
-- **[CloudCheckr](https://cloudcheckr.com/)**  
-
-  Cloud management platform for cost optimization, security, and inventory visibility across public clouds.
-
-
-
-- **[ParkMyCloud / Turbonomic-related scheduling](https://www.ibm.com/)**  
-
-  Scheduling and park/unpark automation for non-production resources to reduce idle cloud spend (often associated with broader IBM optimization portfolios).
-
-
-
-- **[StormForge](https://www.stormforge.io/)**  
-
-  Kubernetes optimization platform using machine learning for resource recommendations and performance/cost efficiency.
-
-
-
-- **[ScaleOps](https://scaleops.com/)**  
-
-  Kubernetes-focused automation platform for rightsizing, bin-packing, and continuous capacity optimization.
-
-
-
-## Open-Source GitHub Projects
-
-- **[OpenCost](https://github.com/opencost/opencost)**  
-
-  Leading CNCF open-source cost monitoring and allocation engine for Kubernetes and cloud spend—real-time allocation by namespace, workload, and cloud resources (Apache 2.0).
-
-
-
-- **[Kubecost (open components / related)](https://www.kubecost.com/)**  
-
-  Commercial platform built on the OpenCost engine; open allocation models and community editions support Kubernetes cost visibility.
-
-
-
-- **[Kubernetes Horizontal Pod Autoscaler (HPA)](https://github.com/kubernetes/kubernetes)**  
-
-  Native open-source autoscaling based on CPU/memory or custom metrics for capacity responsiveness.
-
-
-
-- **[Kubernetes Vertical Pod Autoscaler (VPA)](https://github.com/kubernetes/autoscaler)**  
-
-  Open-source component that recommends or applies CPU/memory requests and limits based on observed usage.
-
-
-
-- **[Cluster Autoscaler](https://github.com/kubernetes/autoscaler)**  
-
-  Open-source tool that automatically adjusts the size of Kubernetes clusters based on pending pods and utilization.
-
-
-
-- **[Prometheus + Grafana capacity dashboards](https://github.com/prometheus/prometheus)**  
-
-  Foundational open observability stack used for utilization metrics, capacity trends, and custom planning views.
-
-
-
-- **[KEDA (Kubernetes Event-driven Autoscaling)](https://github.com/kedacore/keda)**  
-
-  Open-source event-driven autoscaler for Kubernetes that scales based on external metrics and queues.
-
-
-
-- **[Goldilocks](https://github.com/FairwindsOps/goldilocks)**  
-
-  Open-source tool that uses VPA recommendations to help rightsize Kubernetes resource requests.
-
-
-
-- **[Cloud provider open billing and usage exporters](https://github.com/)**  
-
-  Community exporters that feed cloud billing and utilization data into Prometheus or OpenCost-style pipelines.
-
-
-
-- **[Documentation and FinOps open playbooks](https://opencost.io/)**  
-
-  Guides for deploying OpenCost, combining it with native autoscalers, and building basic capacity visibility without commercial platforms.
-
-
-
-### Additional Strong Open-Source Options
-
-- Deploying **OpenCost** for Kubernetes and multi-cloud cost allocation and showback.
-
-- Combining **HPA + VPA + Cluster Autoscaler** (and optionally KEDA) for automated capacity response.
-
-- Using **Prometheus/Grafana** for custom utilization and capacity trend analysis.
-
-- Accepting that advanced multi-cloud recommendations, automated actions, reserved-instance planning, enterprise FinOps workflows, and support still favor commercial platforms (Cloudability, Turbonomic, Densify, Flexera, StormForge, ScaleOps, etc.).
-
-- Focusing open-source efforts on Kubernetes-first environments, transparency, and cost-efficient visibility.
-
-
-
-**Frameworks for building custom systems**: Collect metrics with Prometheus → allocate costs with OpenCost → rightsize via VPA/Goldilocks recommendations → scale with HPA/Cluster Autoscaler → report in Grafana. Suitable for platform and FinOps engineering teams. Many enterprises still adopt commercial capacity platforms for automation and multi-cloud governance.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Capacity and cost tools influence production resources and spend. Open-source deployments require careful validation of recommendations before automated changes. This list is not financial or operational advice.
-
-
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Capacity-Planning?style=flat-square" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Capacity-Planning?style=flat-square" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cloud-Capacity-Planning?style=flat-square" alt="License" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud Capacity Planning Banner" width="100%" />
+</p>
+
+# ☁️ Awesome Cloud Capacity Planning & FinOps Ecosystem 🚀
+
+**A curated list of enterprise SaaS platforms, open-source tools, and resources for Cloud Resource Optimization, Rightsizing, Cost Allocation, Autoscaling Intelligence, and Workload Efficiency.**
 
 ---
 
-**Made for FinOps practitioners, platform engineers, and open-source cloud advocates.**
+## 💡 Overview & Market Landscape
 
-Let's keep capacity efficient, visible, and as open as practical.
+The global **Cloud Financial Management (FinOps) and Capacity Optimization market** is estimated at **$10.5 Billion to $12.8 Billion**, experiencing a ~22% CAGR driven by multi-cloud enterprise adoption, Kubernetes scaling complexity, and AI infrastructure costs. 
+
+The sector is **moderately fragmented**: 
+- **Consolidation & M&A** at the enterprise tier (e.g., IBM acquiring Apptio & Turbonomic, Thoma Bravo/Flexera acquiring CloudCheckr) creates dominant suite vendors.
+- **Specialized Innovators** (e.g., ScaleOps, Infracost) rapidly capture niche market share in autonomous Kubernetes scaling and Developer FinOps.
+
+---
+
+## 📌 Table of Contents
+- [🏢 Enterprise SaaS & Hosted Platforms](#-enterprise-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 Enterprise SaaS & Hosted Platforms
+
+> [!NOTE]
+> Below are top SaaS offerings ranked by company valuation / revenue scale (descending).
+
+| Platform | Description | Size (Valuation / Revenue) | Pricing Details | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| 🔹 **[Apptio Cloudability](https://www.apptio.com/products/cloudability/)** | Enterprise multi-cloud cost allocation, rightsizing, showback, and FinOps governance platform. | **$4.6B Valuation** *(Acquired by IBM; ~$300M ARR)* | Custom contract; based on cloud spend volume (starts ~$500/mo for entry tiers). | 14-day to 28-day free trial (available via AWS Marketplace). |
+| 🔹 **[Flexera One](https://www.flexera.com/)** | Comprehensive IT asset management & multi-cloud hybrid capacity planning solution. | **$2.9B Valuation** *(Thoma Bravo PE deal; ~$250M-$500M Revenue)* | Custom enterprise annual quote based on managed environment size. | 30-day proof-of-concept / guided evaluation. |
+| 🔹 **[IBM Turbonomic](https://www.ibm.com/products/turbonomic)** | Application Resource Management (ARM) continuously matching compute/storage demand to capacity. | **$1.5B–$2.0B Valuation** *(Acquired by IBM)* | Custom per-Managed Virtual Server (MVS) license contract. | 30-day free trial on full platform. |
+| 🔹 **[ScaleOps](https://scaleops.com/)** | Autonomous cloud & AI infrastructure platform for Kubernetes pod/node rightsizing & bin-packing. | **$800M+ Valuation** *(Series C funded, $210M total raised)* | Custom enterprise quota based on cluster compute capacity. | 7-day automated free trial. |
+| 🔹 **[CloudHealth by VMware](https://cloud.vmware.com/)** | Multi-cloud cost governance, rightsizing recommendations, and showback reporting. | **$500M+ Valuation** *(Acquired by VMware / Broadcom Tanzu; $50M ARR)* | Custom contract based on % of monthly cloud spend (typically 2%-3%). | Guided demo & partner-managed evaluation access. |
+| 🔹 **[CloudCheckr](https://cloudcheckr.com/)** | Total visibility platform for cloud cost optimization, inventory, and governance. | **$100M Valuation** *(Acquired by Flexera; ~$29M Revenue)* | Custom annual agreements (typically starting ~$50,000/yr for enterprise). | 14-day free trial via sales request. |
+| 🔹 **[CloudBolt](https://www.cloudbolt.io/)** | Hybrid cloud management platform with self-service provisioning, cost tracking, and capacity orchestration. | **$71.6M Funding** *(~$20M-$33M estimated ARR)* | Free tier available; paid tier custom per-managed VM subscription. | **Free Forever** for up to **100 managed resources** (VMs, DBs, clusters). |
+| 🔹 **[Densify](https://www.densify.com/)** | Machine-learning capacity engine for automated container & VM workload optimization. | **~$30M Revenue** *(Private entity)* | Custom quote based on infrastructure node/VM count. | 14-day to 30-day free trial option. |
+| 🔹 **[StormForge](https://www.stormforge.io/)** | Machine learning Kubernetes proactive rightsizing & auto-tuning platform. | **Private Enterprise** *(Acquired by CloudBolt)* | Enterprise custom subscription or AWS Marketplace meter. | 30-day free trial for Optimize Live. |
+| 🔹 **[ParkMyCloud](https://www.ibm.com/)** | Automated resource parking/scheduling engine to turn off non-production cloud instances. | **Acquired Portfolio** *(Part of IBM / Turbonomic portfolio)* | Starts at $3 per managed instance / month. | **Free Tier** for up to 5 resources or 14-day free trial. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+> [!TIP]
+> Popular open-source frameworks for Kubernetes capacity planning, cost estimation, and autoscaling. Ranked by GitHub Star Count (descending).
+
+- ⚡ **[Kubernetes Core](https://github.com/kubernetes/kubernetes)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
+  Production-grade container orchestration system powering containerized infrastructure capacity & native scheduling.
+
+- ⚡ **[Prometheus Stack](https://github.com/prometheus/prometheus)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
+  CNCF open observability & monitoring toolkit for utilization metrics, capacity trends, and alerts.
+
+- ⚡ **[Infracost](https://github.com/infracost/infracost)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
+  Cloud cost estimates for Terraform in pull requests—shifting capacity cost awareness left to developers.
+
+- ⚡ **[KEDA (Kubernetes Event-driven Autoscaling)](https://github.com/kedacore/keda)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/kedacore/keda?style=social&color=white)](https://github.com/kedacore/keda/stargazers)  
+  CNCF event-driven autoscaler for Kubernetes to scale workloads based on external queue depths & custom metrics.
+
+- ⚡ **[Kubernetes Autoscaler (HPA / VPA / Cluster Autoscaler)](https://github.com/kubernetes/autoscaler)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/kubernetes/autoscaler?style=social&color=white)](https://github.com/kubernetes/autoscaler/stargazers)  
+  Official Kubernetes autoscaling tools for Horizontal Pod Autoscaling, Vertical Pod Autoscaling, and node-level Cluster Autoscaling.
+
+- ⚡ **[Karpenter (AWS Provider)](https://github.com/aws/karpenter-provider-aws)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/aws/karpenter-provider-aws?style=social&color=white)](https://github.com/aws/karpenter-provider-aws/stargazers)  
+  High-performance, flexible Kubernetes node autoscaler that rapidly provisions optimal EC2 instances based on unschedulable pod requirements.
+
+- ⚡ **[OpenCost](https://github.com/opencost/opencost)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/opencost/opencost?style=social&color=white)](https://github.com/opencost/opencost/stargazers)  
+  CNCF open-source cost monitoring and real-time allocation engine for Kubernetes and multi-cloud environments.
+
+- ⚡ **[ec2instances.info (Vantage)](https://github.com/vantage-sh/ec2instances.info)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/vantage-sh/ec2instances.info?style=social&color=white)](https://github.com/vantage-sh/ec2instances.info/stargazers)  
+  Open data aggregator comparing AWS EC2 instance specs, memory, throughput, and pricing for capacity selection.
+
+- ⚡ **[Grafana Mimir](https://github.com/grafana/mimir)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
+  Open-source, massively scalable time-series backend for long-term capacity metrics storage.
+
+- ⚡ **[Goldilocks](https://github.com/FairwindsOps/goldilocks)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/FairwindsOps/goldilocks?style=social&color=white)](https://github.com/FairwindsOps/goldilocks/stargazers)  
+  Open-source utility that leverages VPA recommendations to identify baseline resource request recommendations for Kubernetes namespaces.
+
+- ⚡ **[Karpenter Core (Kubernetes SIGs)](https://github.com/kubernetes-sigs/karpenter)**  
+  [![GitHub Stars](https://img.shields.io/github/stars/kubernetes-sigs/karpenter?style=social&color=white)](https://github.com/kubernetes-sigs/karpenter/stargazers)  
+  Vendor-agnostic core for Karpenter cluster autoscaling and compute bin-packing.
+
+---
+
+## 🤝 Support & Community
+
+If you find this repository helpful, please consider supporting the project! 💖
+
+- ⭐ **Star** this repository on GitHub to show your appreciation.
+- 🔀 **Fork** and share with your team, platform engineering groups, and FinOps practitioners.
+- ☕ **Buy Me a Coffee**: Support ongoing open-source maintenance via [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository.
+2. Create a new feature branch (`git checkout -b feature/new-tool`).
+3. Add your tool to `README.md` following the tabular / badge format.
+4. Submit a Pull Request with a brief explanation of the tool.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Capacity-Planning&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Capacity-Planning&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+This is a **community-curated** awesome list. Product details, valuations, and pricing tiers change frequently over time. Always verify specifications directly with official vendor websites before making architectural or purchasing decisions.
+
+---
+
+**Made with ❤️ for FinOps practitioners, platform engineers, and open-source cloud architects.**
