@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Capacity-Planning?style=flat-square" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Capacity-Planning?style=flat-square" alt="GitHub_Stars" />
   <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Capacity-Planning?style=flat-square" alt="GitHub Forks" />
   <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cloud-Capacity-Planning?style=flat-square" alt="License" />
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -60,50 +60,50 @@ The sector is **moderately fragmented**:
 ## 🔓 Open-Source GitHub Projects
 
 > [!TIP]
-> Popular open-source frameworks for Kubernetes capacity planning, cost estimation, and autoscaling. Ranked by GitHub Star Count (descending).
+> Popular open-source frameworks for Kubernetes capacity planning, cost estimation, and autoscaling. Ranked by GitHub Stars_Count (descending).
 
 - ⚡ **[Kubernetes Core](https://github.com/kubernetes/kubernetes)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
   Production-grade container orchestration system powering containerized infrastructure capacity & native scheduling.
 
 - ⚡ **[Prometheus Stack](https://github.com/prometheus/prometheus)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
   CNCF open observability & monitoring toolkit for utilization metrics, capacity trends, and alerts.
 
 - ⚡ **[Infracost](https://github.com/infracost/infracost)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
   Cloud cost estimates for Terraform in pull requests—shifting capacity cost awareness left to developers.
 
 - ⚡ **[KEDA (Kubernetes Event-driven Autoscaling)](https://github.com/kedacore/keda)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/kedacore/keda?style=social&color=white)](https://github.com/kedacore/keda/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/kedacore/keda?style=social&color=white)](https://github.com/kedacore/keda/stargazers)  
   CNCF event-driven autoscaler for Kubernetes to scale workloads based on external queue depths & custom metrics.
 
 - ⚡ **[Kubernetes Autoscaler (HPA / VPA / Cluster Autoscaler)](https://github.com/kubernetes/autoscaler)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/kubernetes/autoscaler?style=social&color=white)](https://github.com/kubernetes/autoscaler/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes/autoscaler?style=social&color=white)](https://github.com/kubernetes/autoscaler/stargazers)  
   Official Kubernetes autoscaling tools for Horizontal Pod Autoscaling, Vertical Pod Autoscaling, and node-level Cluster Autoscaling.
 
 - ⚡ **[Karpenter (AWS Provider)](https://github.com/aws/karpenter-provider-aws)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/aws/karpenter-provider-aws?style=social&color=white)](https://github.com/aws/karpenter-provider-aws/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/aws/karpenter-provider-aws?style=social&color=white)](https://github.com/aws/karpenter-provider-aws/stargazers)  
   High-performance, flexible Kubernetes node autoscaler that rapidly provisions optimal EC2 instances based on unschedulable pod requirements.
 
 - ⚡ **[OpenCost](https://github.com/opencost/opencost)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/opencost/opencost?style=social&color=white)](https://github.com/opencost/opencost/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/opencost/opencost?style=social&color=white)](https://github.com/opencost/opencost/stargazers)  
   CNCF open-source cost monitoring and real-time allocation engine for Kubernetes and multi-cloud environments.
 
 - ⚡ **[ec2instances.info (Vantage)](https://github.com/vantage-sh/ec2instances.info)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/vantage-sh/ec2instances.info?style=social&color=white)](https://github.com/vantage-sh/ec2instances.info/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/vantage-sh/ec2instances.info?style=social&color=white)](https://github.com/vantage-sh/ec2instances.info/stargazers)  
   Open data aggregator comparing AWS EC2 instance specs, memory, throughput, and pricing for capacity selection.
 
 - ⚡ **[Grafana Mimir](https://github.com/grafana/mimir)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
   Open-source, massively scalable time-series backend for long-term capacity metrics storage.
 
 - ⚡ **[Goldilocks](https://github.com/FairwindsOps/goldilocks)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/FairwindsOps/goldilocks?style=social&color=white)](https://github.com/FairwindsOps/goldilocks/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/FairwindsOps/goldilocks?style=social&color=white)](https://github.com/FairwindsOps/goldilocks/stargazers)  
   Open-source utility that leverages VPA recommendations to identify baseline resource request recommendations for Kubernetes namespaces.
 
 - ⚡ **[Karpenter Core (Kubernetes SIGs)](https://github.com/kubernetes-sigs/karpenter)**  
-  [![GitHub Stars](https://img.shields.io/github/stars/kubernetes-sigs/karpenter?style=social&color=white)](https://github.com/kubernetes-sigs/karpenter/stargazers)  
+  [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes-sigs/karpenter?style=social&color=white)](https://github.com/kubernetes-sigs/karpenter/stargazers)  
   Vendor-agnostic core for Karpenter cluster autoscaling and compute bin-packing.
 
 ---
