@@ -60,7 +60,7 @@ The sector is **moderately fragmented**:
 ## 🔓 Open-Source GitHub Projects
 
 > [!TIP]
-> Popular open-source frameworks for Kubernetes capacity planning, cost estimation, and autoscaling. Ranked by GitHub Stars_Count (descending).
+> Popular open-source frameworks for Kubernetes capacity planning, cost estimation, and autoscaling. Ranked by GitHub_Stars_Count (descending).
 
 - ⚡ **[Kubernetes Core](https://github.com/kubernetes/kubernetes)**  
   [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
